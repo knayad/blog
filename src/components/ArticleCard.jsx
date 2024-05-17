@@ -11,30 +11,37 @@ const ArticleCard = ({ className }) => {
       <img
         src={images.LeafRazor}
         alt="Leaf Razor"
-        className="w-full object-cover object-center h-auto"
+        className="w-full object-cover object-center h-auto md:h-52 lg:h-48 xl:h-60"
       />
       <div className="p-5">
-        <h2 className="font-opensans font-bold text-xl"> Leaf Razor </h2>
-        <p className="text-sm"> Still worth it after a few years? </p>
+        <h2 className="font-opensans font-bold text-xl md:text-2xl lg:text-[28px]">
+          Leaf Razor
+        </h2>
+        <p className="text-sm mt-3  md:text-lg">
+          Still worth it after a few years?
+        </p>
         <div className="flex justify-between flex-nowrap items-center mt-6">
-          <div className="flex items-center gap-x-2">
-            User
-            <img src={images.Profile} alt="Profile" />
+          <div className="flex items-center gap-x-2 md:gap-x-2.5 ">
+            <img
+              src={images.Profile}
+              alt="Profile"
+              className="w-9 h-9 md:w-16 md:h-16 "
+            />
             <div className="flex flex-col">
-              <h4 className="font-bold italic text-sm text-[rgb(97,104,116)]">
+              <h4 className="font-bold italic text-sm text-[rgb(97,104,116)] md:text-base">
                 KNAYAD
               </h4>
-              <div className="flex items-center gap-x-2">
-                <span className="bg-neon-green w-fir bg-opacity-20 p-1.5 rounded-full">
-                  <MdOutlineVerified className="text-neon-green" />
+              <div className="flex items-center gap-x-2 ">
+                <span className="w-fit bg-neon-green w-fir bg-opacity-20 p-1.5 rounded-full">
+                  <MdOutlineVerified className="w-4 h-4 text-neon-green" />
                 </span>
-                <span className="italic text-xs text-[#959EAD]">
+                <span className="italic text-xs text-[#959EAD] md:text-sm">
                   Verified contributor
                 </span>
               </div>
             </div>
           </div>
-          <span className="font-bold italic text-sm text-[rgb(97,104,116)]">
+          <span className="font-bold italic text-sm text-[rgb(97,104,116)] md:text-base">
             Date
           </span>
         </div>
