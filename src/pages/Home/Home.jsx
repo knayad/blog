@@ -1,10 +1,11 @@
 import React from "react";
-import MainLayout from "../components/MainLayout";
+import MainLayout from "../../components/MainLayout";
+import Hero from "./container/Hero";
 
 const Home = () => {
   return (
     <MainLayout>
-      <div>Home</div>
+      <Hero />
     </MainLayout>
   );
 };
