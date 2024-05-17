@@ -1,13 +1,14 @@
 import Logo from "../assets/Noun.svg";
-import ReadWrite from "../assets/ReadWrite.svg";
-import TeamUp from "../assets/TeamUp.svg";
 import SharingKnowledge from "../assets/SharingKnowledge.svg";
+
+import LeafRazor from "../assets/posts/LeafRazor.png";
+import Profile from "../assets/posts/CoffeeFAvatar.svg";
 
 const images = {
   Logo,
-  ReadWrite,
-  TeamUp,
   SharingKnowledge,
+  LeafRazor,
+  Profile,
 };
 
 export default images;
