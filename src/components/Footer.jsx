@@ -63,6 +63,32 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+        <div className="col-span-5 pl-12 md:col-span-4 md:col-start-5 lg:col-span-2 lg:col-start-auto hidden lg:block lg:1/2 px-16">
+          <h3 className="text-[rgb(97,104,116)] font-bold pb-3 md:text-lg">
+            {" "}
+            Header
+          </h3>
+          <ul className="text-[rgb(97,104,116)] text-sm mt-5 space-y-4 md:text-base">
+            <li>
+              <a href="/">1</a>
+            </li>
+            <li>
+              <a href="/">2</a>
+            </li>
+            <li>
+              <a href="/">3</a>
+            </li>
+            <li>
+              <a href="/">4</a>
+            </li>
+            <li>
+              <a href="/">5</a>
+            </li>
+            <li>
+              <a href="/">6</a>
+            </li>
+          </ul>
+        </div>
         <div className="text-[rgb(97,104,116)] col-span-10 md:col-span-4 md:order-last">
           <img
             src={images.Logo}
@@ -97,7 +123,7 @@ const Footer = () => {
         </div>
       </footer>
       <br />
-      <div className="hidden md:flex flex-col items-center space-y-4 md:col-span-12">
+      <div className="hidden md:flex flex-col items-center space-y-4 md:col-span-10 lg:col-span-10">
         <p className=" italic text-white">Copyright 2024</p>
         <div className="text-white p-3 rounded-full">
           <FaRegHeart className="w-7 h-auto" />

@@ -50,7 +50,7 @@ const NavItem = ({ item }) => {
               {item.items.map((page) => (
                 <a
                   href="/"
-                  className="bg-white bg-opacity-[80%] hover:bg-primary hover:text-white px-4 py-2"
+                  className="lg:bg-white lg:bg-opacity-[80%] md:bg-white md:bg-opacity-[80%] hover:bg-primary hover:text-white px-4 py-2"
                 >
                   {page}
                 </a>
@@ -73,7 +73,7 @@ const Header = () => {
   };
 
   return (
-    <section className="sticky top-0 left-0 right-0 z-50 bg-white bg-opacity-[86%]">
+    <section className="sticky top-0 left-0 right-0 z-50 lg:bg-white lg:bg-opacity-[86%]">
       <header className="container mx-auto px-5 flex justify-between py-4 items-center">
         <div>
           <img className="lg:w-auto" src={images.Logo} alt="logo" />
@@ -95,7 +95,7 @@ const Header = () => {
               <NavItem key={i.name} item={i} />
             ))}
           </ul>
-          <button class="mt-5 lg:mt-0 border-2 border-white-500 lg:border-blue-500 px-6 py-2 rounded-full text-white lg:text-blue-500 font-semibold lg:hover:bg-blue-500 hover:bg-white-500  lg:hover:text-white transition-all duration-300">
+          <button class="mt-5 lg:mt-0 border-2 border-white-500 lg:border-primary px-6 py-2 rounded-full text-white lg:text-primary font-semibold lg:hover:bg-primary hover:bg-white-500  lg:hover:text-white transition-all duration-300">
             Sign in
           </button>
           <div>{""}</div>

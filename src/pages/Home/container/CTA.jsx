@@ -21,7 +21,7 @@ const CTA = () => {
               placeholder="Your email"
             />
 
-            <button className="px-4 py-3 rounded-lg w-full bg-primary text-white font-bold md:w-fit md:whitespace-nowrap">
+            <button className="px-4 py-3 rounded-lg w-full bg-primary text-white font-bold md:w-fit md:whitespace-nowrap  lg:hover:bg-white hover:bg-white-500  lg:hover:text-primary transition-all duration-300">
               Subscribe
             </button>
           </div>
