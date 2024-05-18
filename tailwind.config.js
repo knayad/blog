@@ -5,10 +5,12 @@ module.exports = {
     extend: {
       colors: {
         primary: "#0000ff",
+        grey: "#616874",
         neon: {
           green: "#00ff00",
           red: "#ff0000",
         },
+
         fontFamily: {
           opensans: ["'Open Sans'", "sans-serif"],
           sansita: ["'Sansita'", "sans-serif"],

@@ -17,7 +17,7 @@ const CTA = () => {
           <div className="'w-full max-w-[494px] mt-7 space-y mx-auto md:space-y-0 md:flex md:items-center md:space-x-2 lg:mx-0 ">
             <input
               type="text"
-              className="px-4 py-3 rounded-lg w-full placeholder:text-[rgb(97,104,116)]"
+              className="px-4 py-3 rounded-lg w-full placeholder:text-grey"
               placeholder="Your email"
             />
 

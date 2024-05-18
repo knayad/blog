@@ -3,7 +3,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 
-import { images } from "../constants/index";
+import { images } from "../constants";
 
 const navItemsNames = [
   { name: "Home", type: "link" },
@@ -28,7 +28,7 @@ const NavItem = ({ item }) => {
           <a href="/" className="px-4 py-2">
             {item.name}
           </a>
-          <span className="cursor-pointer text-white lg:text-blue-500 absolute transition-all duration-500 font-bold right-0 top-0 group-hover:right-[90%] opacity-0 group-hover:opacity-100">
+          <span className="cursor-pointer text-white lg:text-primary absolute transition-all duration-500 font-bold right-0 top-0 group-hover:right-[90%] opacity-0 group-hover:opacity-100">
             /
           </span>
         </>
@@ -73,7 +73,7 @@ const Header = () => {
   };
 
   return (
-    <section className="sticky top-0 left-0 right-0 z-50 lg:bg-white lg:bg-opacity-[86%]">
+    <section className="sticky top-0 left-0 right-0 z-50 lg:bg-white lg:bg-opacity-[86%] bg-white bg-opacity-[86%]">
       <header className="container mx-auto px-5 flex justify-between py-4 items-center">
         <div>
           <img className="lg:w-auto" src={images.Logo} alt="logo" />

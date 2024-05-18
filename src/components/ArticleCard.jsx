@@ -28,7 +28,7 @@ const ArticleCard = ({ className }) => {
               className="w-9 h-9 md:w-16 md:h-16 "
             />
             <div className="flex flex-col">
-              <h4 className="font-bold italic text-sm text-[rgb(97,104,116)] md:text-base">
+              <h4 className="font-bold italic text-sm text-grey md:text-base">
                 KNAYAD
               </h4>
               <div className="flex items-center gap-x-2 ">
@@ -41,7 +41,7 @@ const ArticleCard = ({ className }) => {
               </div>
             </div>
           </div>
-          <span className="font-bold italic text-sm text-[rgb(97,104,116)] md:text-base">
+          <span className="font-bold italic text-sm text-grey md:text-base">
             Date
           </span>
         </div>

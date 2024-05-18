@@ -1,9 +1,9 @@
 import React from "react";
 
 import MainLayout from "../../components/MainLayout";
-import Hero from "./container/Hero";
-import Articles from "./container/Articles";
-import CTA from "./container/CTA";
+import Hero from "./containers/Hero";
+import Articles from "./containers/Articles";
+import CTA from "./containers/CTA";
 
 const Home = () => {
   return (

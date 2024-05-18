@@ -23,7 +23,7 @@ const Hero = () => {
               placeholder="Search for a noun..."
             />
           </div>
-          <button className="w-full bg-primary text-white font-semibold rounded-lg px-5 py-3 md:absolute md:right-2 md:top-1/2 md:-translate-y-1/2 md:w-fit md:py-2  ">
+          <button className="w-full bg-primary text-white font-semibold rounded-lg px-5 py-3 md:absolute md:right-2 md:top-1/2 md:-translate-y-1/2 md:w-fit md:py-2  lg:hover:bg-white hover:bg-white-500  lg:hover:text-primary transition-all duration-300">
             Search
           </button>
         </div>
