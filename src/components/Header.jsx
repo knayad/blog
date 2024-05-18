@@ -50,7 +50,7 @@ const NavItem = ({ item }) => {
               {item.items.map((page) => (
                 <a
                   href="/"
-                  className="hover: hover:bg-primary hover:text-white px-4 py-2"
+                  className="bg-white bg-opacity-[80%] hover:bg-primary hover:text-white px-4 py-2"
                 >
                   {page}
                 </a>
@@ -73,7 +73,7 @@ const Header = () => {
   };
 
   return (
-    <section className="sticky top-0 left-0 right-0 z-50 bg-white">
+    <section className="sticky top-0 left-0 right-0 z-50 bg-white bg-opacity-[86%]">
       <header className="container mx-auto px-5 flex justify-between py-4 items-center">
         <div>
           <img className="lg:w-auto" src={images.Logo} alt="logo" />
