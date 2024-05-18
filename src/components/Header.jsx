@@ -76,7 +76,7 @@ const Header = () => {
     <section className="sticky top-0 left-0 right-0 z-50 bg-white">
       <header className="container mx-auto px-5 flex justify-between py-4 items-center">
         <div>
-          <img className="w-16 lg:w-auto" src={images.Logo} alt="logo" />
+          <img className="lg:w-auto" src={images.Logo} alt="logo" />
         </div>
         <div className="lg:hidden z-50">
           {visible ? (

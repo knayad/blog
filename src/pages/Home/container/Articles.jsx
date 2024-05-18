@@ -1,4 +1,6 @@
 import React from "react";
+import { FaLongArrowAltRight } from "react-icons/fa";
+
 import ArticleCard from "../../../components/ArticleCard";
 
 const Articles = () => {
@@ -9,6 +11,10 @@ const Articles = () => {
         <ArticleCard className="w-full md:w-[calc(50%-20px)] lg:w-[calc(33.33% - 21px)]" />
         <ArticleCard className="w-full md:w-[calc(50%-20px)] lg:w-[calc(33.33% - 21px)]" />
       </div>
+      <button className="mx-auto flex items-center gap-x-2 font-bold text-primary border-2 border-primary px-6 py-3 rounded-lg">
+        <span>More articles</span>
+        <FaLongArrowAltRight className="w-3 h-3" />
+      </button>
     </section>
   );
 };
