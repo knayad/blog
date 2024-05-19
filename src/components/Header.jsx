@@ -47,8 +47,9 @@ const NavItem = ({ item }) => {
             } lg:hidden transition-all duration-500 pt-4 lg:absolute lg:bottom-0 lg:right-0 lg:transform lg:translate-y-full lg:group-hover:block w-max`}
           >
             <ul className="flex flex-col shadow-lg rounded-lg overflow-hidden text-center">
-              {item.items.map((page) => (
+              {item.items.map((page, index) => (
                 <a
+                  key={index}
                   href="/"
                   className="lg:bg-white lg:bg-opacity-[80%] md:bg-white md:bg-opacity-[80%] hover:bg-primary hover:text-white px-4 py-2"
                 >
@@ -95,7 +96,7 @@ const Header = () => {
               <NavItem key={i.name} item={i} />
             ))}
           </ul>
-          <button class="mt-5 lg:mt-0 border-2 border-white-500 lg:border-primary px-6 py-2 rounded-full text-white lg:text-primary font-semibold lg:hover:bg-primary hover:bg-white-500  lg:hover:text-white transition-all duration-300">
+          <button className="mt-5 lg:mt-0 border-2 border-white-500 lg:border-primary px-6 py-2 rounded-full text-white lg:text-primary font-semibold lg:hover:bg-primary hover:bg-white-500  lg:hover:text-white transition-all duration-300">
             Sign in
           </button>
           <div>{""}</div>
