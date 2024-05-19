@@ -10,7 +10,8 @@ import { images } from "../constants/index";
 const Footer = () => {
   return (
     <section className="CTA">
-      <footer className="container mx-auto grid grid-cols-10 rounded-xl z-[1] relative bg-white bg-opacity-[28%] p-3 px-5 py-10 gap-y-10 gap-x-5 md:pt-20 md:grid-col-12 lg:grid-cols-10 lg:gap-x-10">
+      <br />
+      <footer className="container mx-auto grid grid-cols-10 rounded-xl z-[1] relative bg-white bg-opacity-[28%] p-3 px-5 py-10 gap-y-10 gap-x-5 md:pt-20 md:grid-cols-12 lg:grid-cols-10 lg:gap-x-10">
         <div className="col-span-2 pl-12 lg:col-span-2">
           <h3 className="text-grey font-bold pb-3 md:text-lg "> Pages</h3>
           <ul className="text-grey text-sm mt-5 space-y-4 md:text-base">
@@ -120,6 +121,7 @@ const Footer = () => {
           <FaRegHeart className="w-7 h-auto" />
         </div>
         <p className="font-bold text-white">Crafted with love.</p>
+        <br />
       </div>
     </section>
   );

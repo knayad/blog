@@ -11,7 +11,7 @@ const CTA = () => {
             {" "}
             Stay updated!
           </h2>
-          <p className="text-white font-sansita-san-serif pt-5">
+          <p className="text-white font-sansita-san-serif pt-5 md:text-center">
             Get the latest and greatest reviews straight to your inbox.
           </p>
           <div className="'w-full max-w-[494px] mt-7 space-y mx-auto md:space-y-0 md:flex md:items-center md:space-x-2 lg:mx-0 ">
@@ -50,7 +50,7 @@ const CTA = () => {
                   <h2 className="font-sansita-san-serif font-bold italic text-xl text-white  md:text-2xl lg:text-[28px]">
                     Stay social.
                   </h2>
-                  <p className="text-white mt-3 text-sm md:text-lg">
+                  <p className="text-white mt-3 text-sm md:text-lg md:text-center">
                     Share reviews from Noun to people you care about, because we
                     care about how you spend your coin.
                   </p>

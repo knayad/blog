@@ -5,7 +5,7 @@ const BreadCrumbs = ({ data }) => {
   return (
     <div className="flex items-center py-4 overflow-x-auto whitespace-nowrap">
       {data.map((item, index) => (
-        <div className="text-grey opacity-70 text-xs">
+        <div className="text-grey opacity-70 text-xs md:text-sm font-opensans">
           <Link to={item.link}>{item.name}</Link>
           {index !== data.length - 1 && <span className="px-3">/</span>}
         </div>
