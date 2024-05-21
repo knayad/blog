@@ -1,3 +1,6 @@
+LIVE: https://blog-afcj.onrender.com/
+(purely for looks)
+
 # NOUN: A MERN Stack Blog app
 
 This repo is the frontend of the application. It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
