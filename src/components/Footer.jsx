@@ -59,25 +59,25 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-span-5 pl-12 md:col-span-4 md:col-start-5 lg:col-span-2 lg:col-start-auto hidden lg:block lg:1/2 px-16">
-          <h3 className="text-grey font-bold pb-3 md:text-lg"> Header</h3>
+          <h3 className="text-grey font-bold pb-3 md:text-lg"> Hire</h3>
           <ul className="text-grey text-sm mt-5 space-y-4 md:text-base">
             <li>
-              <a href="/">1</a>
+              <a href="/">Nadia</a>
             </li>
             <li>
-              <a href="/">2</a>
+              <a href="/">Hire</a>
             </li>
             <li>
-              <a href="/">3</a>
+              <a href="/">Nadia</a>
             </li>
             <li>
-              <a href="/">4</a>
+              <a href="/">Hire</a>
             </li>
             <li>
-              <a href="/">5</a>
+              <a href="/">Nadia</a>
             </li>
             <li>
-              <a href="/">6</a>
+              <a href="/">Ayad</a>
             </li>
           </ul>
         </div>
